@@ -1,0 +1,41 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.quick-chat-dashboard-tabs {
+  padding-top: 40px;
+}
+
+.tabs {
+  padding-top: 40px;
+}
+
+ul.tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+ul.tabs li {
+  border: 1px solid #c3c4c7;
+  background: #dcdcde;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+ul.tabs li.current {
+  background: #ededed;
+  color: #222;
+}
+
+.tab-content {
+  display: none;
+  background: #ededed;
+  padding: 15px;
+}
+
+.tab-content.current {
+  display: inherit;
+}
